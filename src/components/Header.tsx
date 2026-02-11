@@ -22,13 +22,14 @@ export function Header() {
     >
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
+          
           <Link to="/" className="flex items-center gap-3">
             <img
-              src="/flux-2026-01-21-20_20_05.png"
-              alt="Market Sentinel"
-              className="w-10 h-10 object-contain"
+              src="/logo.png"
+              alt="Market Sentinel Logo"
+              className="w-12 h-12 object-contain"
             />
-            <span className="text-xl font-bold">
+            <span className="text-xl font-bold tracking-wide">
               <span className="text-white">MARKET</span>{' '}
               <span className="text-green-500">SENTINEL</span>
             </span>
