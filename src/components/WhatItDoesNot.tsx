@@ -4,7 +4,7 @@ export function WhatItDoesNot() {
   const notFeatures = [
     {
       icon: Zap,
-      title: "Ne trade pas automatiquement",
+      title: "N'agit pas automatiquement",
       description: "Market Sentinel ne passe aucun ordre. La decision finale reste toujours entre vos mains."
     },
     {
@@ -19,8 +19,8 @@ export function WhatItDoesNot() {
     },
     {
       icon: AlertCircle,
-      title: "Ne remplace pas votre strategie",
-      description: "C'est un outil d'aide a la decision, pas une strategie de trading cle en main."
+      title: "Ne remplace pas votre jugement",
+      description: "C'est un outil d'aide a la decision, pas une strategie d'investissement cle en main."
     }
   ];
 
@@ -70,7 +70,7 @@ export function WhatItDoesNot() {
           </h3>
           <p className="text-gray-300 max-w-3xl mx-auto leading-relaxed">
             Market Sentinel est concu pour renforcer votre processus de decision,
-            pas pour le remplacer. Vous gardez le controle total de vos trades et de votre capital.
+            pas pour le remplacer. Vous gardez le controle total de vos investissements et de votre capital.
             Nous valorisons la transparence et refusons toute promesse de gains garantis.
           </p>
         </div>

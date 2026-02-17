@@ -28,13 +28,13 @@ export function Hero() {
         {/* Tagline */}
         <p className="text-2xl md:text-3xl font-semibold text-gray-300 mb-8">
           L'Agent IA qui vous dit{' '}
-          <span className="gradient-text">quand NE PAS trader</span>
+          <span className="gradient-text">quand vous ABSTENIR</span>
         </p>
 
         {/* Subtitle */}
         <p className="text-xl md:text-2xl text-gray-400 mb-12 max-w-3xl mx-auto leading-relaxed">
-          Prenez de meilleures décisions de marché, sans émotion, sans intuition aveugle,
-          sans sur-trading. <span className="text-cyan-400">Décidez avant d'agir.</span>
+          Prenez de meilleures décisions d'investissement, sans émotion, sans intuition aveugle,
+          sans précipitation. <span className="text-cyan-400">Décidez avant d'agir.</span>
         </p>
 
         {/* CTA Buttons */}

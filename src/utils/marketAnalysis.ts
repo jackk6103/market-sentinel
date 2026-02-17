@@ -113,7 +113,7 @@ export function analyzeMarket(pair: string, _timeframe: string): AnalysisResult 
       1
     )}% indique une bonne liquidite. Les indicateurs techniques sont alignes avec un score de ${technicalScore.toFixed(
       1
-    )}/100. Le sentiment du marche est ${sentiment > 0 ? 'positif' : 'negatif'}. C'est le moment d'envisager une position.`;
+    )}/100. Le sentiment du marche est ${sentiment > 0 ? 'positif' : 'negatif'}. C'est le moment d'envisager d'agir.`;
   } else if (score < -20 || volatility > 80) {
     recommendation = 'avoid';
     confidence = Math.min(95, 60 + Math.abs(score) / 2);
@@ -127,7 +127,7 @@ export function analyzeMarket(pair: string, _timeframe: string): AnalysisResult 
       trend === 'sideways'
         ? 'Le marche manque de direction claire, rendant les predictions difficiles.'
         : ''
-    } Il est preferable d'attendre de meilleures conditions avant d'ouvrir une position.`;
+    } Il est preferable de s'abstenir et d'attendre de meilleures conditions.`;
   } else {
     recommendation = 'wait';
     confidence = 50 + Math.random() * 20;
@@ -135,7 +135,7 @@ export function analyzeMarket(pair: string, _timeframe: string): AnalysisResult 
       1
     )}% et un volume de ${volume.toFixed(
       1
-    )}% suggerent de la prudence. Bien que certains indicateurs soient favorables, d'autres sont incertains. Il est recommande d'attendre une confirmation plus claire de la tendance avant d'entrer en position. Surveillez l'evolution dans les prochaines heures.`;
+    )}% suggerent de la prudence. Bien que certains indicateurs soient favorables, d'autres sont incertains. Il est recommande d'attendre une confirmation plus claire de la tendance avant de prendre une decision. Surveillez l'evolution dans les prochaines heures.`;
   }
 
   return {

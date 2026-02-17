@@ -29,7 +29,7 @@ export function Features() {
     {
       icon: CheckCircle,
       title: "Recommandation neutre",
-      description: "Synthèse claire et objective : conditions favorables, acceptables, ou défavorables pour trader.",
+      description: "Synthèse claire et objective : conditions favorables, acceptables, ou défavorables pour prendre position.",
       color: "green"
     }
   ];

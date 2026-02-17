@@ -9,7 +9,7 @@ export function Footer() {
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
               <img
-                src="/flux-2026-01-21-20_20_05.png"
+                src="/Market-Sentinel_Logo_-_Emblem_Design,_Shield_Icon.png"
                 alt="Market Sentinel"
                 className="w-10 h-10 object-contain"
               />
@@ -19,7 +19,7 @@ export function Footer() {
               </span>
             </div>
             <p className="text-gray-400 mb-4 max-w-md">
-              L'assistant intelligent qui vous aide à prendre de meilleures décisions de trading
+              L'assistant intelligent qui vous aide à prendre de meilleures décisions d'investissement
               en analysant le contexte de marché en temps réel.
             </p>
             <div className="flex gap-4">
@@ -63,7 +63,7 @@ export function Footer() {
             2026 Market Sentinel. Tous droits reserves.
             <br className="sm:hidden" />
             <span className="hidden sm:inline"> | </span>
-            Le trading comporte des risques. Tradez de manière responsable.
+            Les investissements comportent des risques. Investissez de manière responsable.
           </p>
         </div>
       </div>

@@ -15,7 +15,7 @@ export function Problem() {
     {
       icon: TrendingDown,
       title: "Pertes évitables",
-      description: "Trader dans des conditions défavorables (faible liquidité, forte volatilité) multiplie les risques de pertes."
+      description: "Agir dans des conditions défavorables (faible liquidité, forte volatilité) multiplie les risques de pertes."
     }
   ];
 
@@ -25,7 +25,7 @@ export function Problem() {
         {/* Section header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Le problème des <span className="text-red-500">traders</span>
+            Le problème des <span className="text-red-500">décideurs</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
             Trop d'informations, pas assez de clarté. Résultat : des décisions précipitées et des pertes évitables.

@@ -4,23 +4,23 @@ export function ForWho() {
   const profiles = [
     {
       icon: Clock,
-      title: "Day traders & Scalpers",
-      description: "Vous avez besoin de savoir instantanement si les conditions sont favorables pour ouvrir une position rapide."
+      title: "Investisseurs actifs",
+      description: "Vous avez besoin de savoir instantanement si les conditions sont favorables pour prendre position."
     },
     {
       icon: Target,
-      title: "Swing traders",
+      title: "Traders & Investisseurs",
       description: "Vous cherchez a optimiser vos points d'entree et de sortie en fonction du contexte de marche."
     },
     {
       icon: BookOpen,
-      title: "Traders debutants",
+      title: "Débutants sur les marchés",
       description: "Vous voulez apprendre a lire le marche sans vous laisser submerger par trop d'informations."
     },
     {
       icon: Users,
-      title: "Traders experimentes",
-      description: "Vous souhaitez automatiser votre veille de marche pour vous concentrer sur votre strategie."
+      title: "Professionnels expérimentés",
+      description: "Vous souhaitez automatiser votre veille de marche pour vous concentrer sur votre strategie de décision."
     }
   ];
 
@@ -34,8 +34,8 @@ export function ForWho() {
             est pour <span className="gradient-text">qui ?</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            Market Sentinel s'adresse a tous les profils de traders
-            qui veulent prendre des decisions plus eclairees.
+            Market Sentinel s'adresse a tous ceux qui investissent sur les marchés
+            et veulent prendre des decisions plus eclairees.
           </p>
         </div>
 
@@ -69,7 +69,7 @@ export function ForWho() {
             Quel que soit votre profil...
           </p>
           <p className="text-gray-300 text-lg">
-            Si vous voulez eviter de trader dans de mauvaises conditions,
+            Si vous voulez eviter d'agir dans de mauvaises conditions,
             Market Sentinel est fait pour vous.
           </p>
         </div>

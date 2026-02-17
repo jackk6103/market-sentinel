@@ -12,14 +12,14 @@ export function FinalCTA() {
           <div className="relative p-12 md:p-16 text-center">
             <div className="flex justify-center mb-8">
               <img
-                src="/flux-2026-01-21-20_20_05.png"
+                src="/Market-Sentinel_Logo_-_Emblem_Design,_Shield_Icon.png"
                 alt="Market Sentinel"
                 className="w-24 h-24 object-contain"
               />
             </div>
 
             <h2 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              Pret a trader plus
+              Pret a décider plus
               <br />
               <span className="gradient-text">intelligemment ?</span>
             </h2>
@@ -67,7 +67,7 @@ export function FinalCTA() {
           <p className="text-gray-500 text-sm">
             Market Sentinel est un outil d'aide a la decision.
             <br />
-            Le trading comporte des risques. Tradez de maniere responsable.
+            Les investissements comportent des risques. Investissez de maniere responsable.
           </p>
         </div>
       </div>

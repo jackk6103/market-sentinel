@@ -77,7 +77,7 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
 
             <div className="p-4 border-b border-gray-800">
               <label className="block text-xs font-medium text-gray-500 mb-3 uppercase tracking-wider">
-                Categorie de Trading
+                Catégorie de Marché
               </label>
               <div className="grid grid-cols-2 gap-2">
                 {TRADING_CATEGORIES.map((category) => (

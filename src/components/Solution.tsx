@@ -15,7 +15,7 @@ export function Solution() {
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
             Votre assistant de veille de marche qui analyse le contexte en temps reel
-            et vous dit clairement quand NE PAS trader.
+            et vous dit clairement quand NE PAS agir.
           </p>
         </div>
 
@@ -95,7 +95,7 @@ export function Solution() {
 
         <div className="text-center p-8 rounded-xl bg-gradient-to-r from-green-500/10 to-cyan-500/10 border border-green-500/20">
           <p className="text-2xl font-semibold text-gray-100 mb-2">
-            Market Sentinel ne trade pas. Il vous aide a trader mieux.
+            Market Sentinel n'investit pas. Il vous aide a décider mieux.
           </p>
           <p className="text-gray-400">
             En vous donnant le contexte necessaire pour decider en toute connaissance de cause.

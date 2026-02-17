@@ -27,7 +27,7 @@ export function HowToUse() {
       number: "04",
       icon: CheckCircle,
       title: "Decidez en connaissance de cause",
-      description: "Tradez uniquement quand les conditions sont favorables, ou restez a l'ecart si elles ne le sont pas.",
+      description: "Agissez uniquement quand les conditions sont favorables, ou abstenez-vous si elles ne le sont pas.",
       color: "cyan"
     }
   ];
@@ -42,7 +42,7 @@ export function HowToUse() {
             <span className="text-green-500">Sentinel</span> ?
           </h2>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            Quatre etapes simples pour integrer Market Sentinel dans votre routine de trading.
+            Quatre etapes simples pour integrer Market Sentinel dans votre routine de prise de décision.
           </p>
         </div>
 

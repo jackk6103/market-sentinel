@@ -110,11 +110,11 @@ export function DashboardPage() {
   const getRecommendationText = (rec: string) => {
     switch (rec) {
       case 'trade':
-        return 'TRADER';
+        return 'AGIR';
       case 'wait':
         return 'ATTENDRE';
       case 'avoid':
-        return 'EVITER';
+        return 'S\'ABSTENIR';
       default:
         return 'ANALYSE';
     }
