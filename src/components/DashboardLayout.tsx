@@ -62,7 +62,7 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
             <div className="p-6 border-b border-gray-800">
               <Link to="/dashboard" className="flex items-center gap-3">
                 <img
-                  src="/flux-2026-01-21-20_20_05.png"
+                  src="/Market-Sentinel_Logo_-_Emblem_Design,_Shield_Icon.png"
                   alt="Market Sentinel"
                   className="w-10 h-10 object-contain"
                 />

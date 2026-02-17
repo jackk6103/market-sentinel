@@ -13,7 +13,7 @@ export function Hero() {
         {/* Logo */}
         <div className="flex justify-center mb-8">
           <img
-            src="/flux-2026-01-21-20_20_05.png"
+            src="/Market-Sentinel_Logo_-_Emblem_Design,_Shield_Icon.png"
             alt="Market Sentinel Logo"
             className="w-32 h-32 md:w-40 md:h-40 object-contain"
           />

@@ -25,7 +25,7 @@ export function Header() {
           
           <Link to="/" className="flex items-center gap-3">
             <img
-              src="/logo.png"
+              src="/Market-Sentinel_Logo_-_Emblem_Design,_Shield_Icon.png"
               alt="Market Sentinel Logo"
               className="w-12 h-12 object-contain"
             />
