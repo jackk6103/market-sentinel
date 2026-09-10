@@ -1,6 +1,9 @@
 # Market Sentinel
 
-Une application professionnelle d'analyse de trading avec IA qui aide les traders à prendre de meilleures décisions en leur indiquant quand trader, attendre ou éviter les marchés.
+**Application publique : [Accéder à Market Sentinel](https://market-sentinel-rho.vercel.app/)**
+
+Market Sentinel est un outil d'aide à la décision consacré à l'analyse des marchés et à la gestion du risque. Il ne passe aucun ordre automatiquement et ne constitue pas un conseil financier personnalisé.
+
 
 ## Fonctionnalités principales
 
